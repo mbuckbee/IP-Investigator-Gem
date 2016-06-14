@@ -6,7 +6,7 @@ module IpInvestigator
     @base_uri = 'https://ipinvestigator.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['IPINVESTIGATOR_API_KEY']
 
     # create the getters and setters
     class << self
